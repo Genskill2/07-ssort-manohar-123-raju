@@ -1,4 +1,4 @@
-oid swap_max(int arr[], int l, int position){
+void swap_max(int arr[], int l, int position){
   int flag = 0; 
  int max = position;
    for(int i = position ; i < l; i++){
